@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.home {
+    height: 100vh;
+}
+.navii {
+    position: relative;
+    padding: 0 2rem;
+}
+
+.lito {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    background: transparent; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 5px;
+}
+.ato{
+    text-decoration: none;
+    color: white;
+}
+
+.pot {
+    color: gray;
+}
+.pot:hover {
+    color: blue;
+}
+
+.navbarto {
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarto .logoto .ato {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.navbarto .linksto {
+    display: flex;
+    gap: 2rem;
+    font-size: larger;
+    padding: 3px;  
+}
+
+.navbarto .lito:hover {
+    padding-left: 10px;
+    padding-right: 10px; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    background: white; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 5px;
+}
+
+.act-btnto {
+    padding-left: 10px;
+    padding-right: 10px; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    background: transparent; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 5px;
+}
+.act-btnto:hover{
+    padding-left: 10px;
+    padding-right: 10px; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    background: #272635; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 5px;
+}
+
+.navbarto .toggle_btntoha {
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.action_btnto {
+    padding-left: 28px;
+    padding-right: 28px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    background: #272635; 
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+    color: white; 
+    font-size: 17px; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    line-height: 24px; 
+    letter-spacing: 0.84px; 
+    word-wrap: break-word;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.action_btnto:hover {
+    scale: 1.05;
+}
+
+ 
+.h1to {
+    margin-top: 40px;
+    font-size: 80px;
+    padding: 30px;
+    padding-top: 150px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+.p1to {
+    margin: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.contact-btn {
+    padding-left: 28px;
+    padding-right: 28px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    background: #272635; 
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+    color: white; 
+    font-size: 17px; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    line-height: 24px; 
+    letter-spacing: 0.84px; 
+    word-wrap: break-word;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-btn:hover {
+    scale: 1.05;
+}
+
+.works-btn {
+    padding-left: 28px;
+    padding-right: 28px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    background: white; 
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+    color: black; 
+    font-size: 17px; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    line-height: 24px; 
+    letter-spacing: 0.84px; 
+    word-wrap: break-word;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.works-btn:hover {
+    scale: 1.05;
+}
+/*DROPDOWN MENU*/
+
+.dropdown_menuito {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menuito.open{
+    height: 400px;
+}
+
+.dropdown_menuito .lito {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown_menuito .action_btnto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+    
+.h1ulit{
+    font-size: 50px;
+}
+
+.faf {
+    color: gray;
+    font-size: 45px;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.row .column {
+    flex: 30%;
+    width: auto;
+    overflow: hidden;
+    height: 100px;
+}
+.row .column img {
+    width: 100px;
+    height: 100px;
+}
+
+.const {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.textblock .title {
+    text-align: center;
+
+}
+.const .textblock {
+    position: absolute;
+            top: 16px;
+}
+
+
+.footerto{
+    background: #272635; 
+    color: white;
+}
+ 
+.imidyis {
+    max-width: 100%;
+  height: 100vh; 
+}
+.hays{
+    margin: 25px;
+    margin-top: 70px;
+} 
+.grid-photo {
+    border: 1px solid white;
+    margin: 7px;
+    border-radius: 7px;
+}
+
+.text-webkit {
+    margin-top: 18%;
+    font-size: 50px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+.stary{
+    font-size: 40px;
+}
+
+.mar {
+    margin-left: 15px;
+}
+
+.phototo { 
+    width: 100vh;
+    height: 40vh;
+}
+.trisom {
+    position: absolute;
+}
+.but {
+    margin-left: 480px;
+}
+.bgg {
+    background: #272635; 
+}
+.rate{
+    display: inline-block;
+}
+ .rate h1{
+    font-weight: 700; 
+    line-height: 59px;
+    display: inline-flex;
+}
+ .rate h1 span{
+    font-size: 18px; 
+    line-height: 27px;
+}
+.rate h3{
+    font-weight: 700; 
+    line-height: 29px;
+}
+li {
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.chevi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.butuun {
+    font-size: 20px;
+} 
+.choosy {
+    height: 90vh;
+    border: 1px solid transparent;
+} 
+/*RESPONSIVE */
+
+@media (max-width: 992px) {
+    .navbarto .linksto,
+    .navbarto .action_btnto,
+    .navbarto .act-btnto {
+        display: none;
+    }
+
+    .navbarto .toggle_btntoha {
+        display: block;
+    }
+
+    .dropdown_menuito {
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    .dropdown_menuito {
+        left: 2rem;
+        width: unset;
+    }
+}
+
+@media screen and (max-width:768px){
+    .welcome {
+        margin-top: 100px;
+    }
+    header{
+        width:47vh;
+    }
+    .h1to {
+        font-size: 45px;
+        padding-left: -10px;
+        margin-left: 5px;
+        -webkit-text-stroke-width: 2px;
+    }
+    .home {
+        height: 110vh;
+    }
+    .text-webkit{
+    font-size: 35px; 
+    -webkit-text-stroke-width: 2px;
+    }
+    
+.imidyis {
+    max-width: 100%; 
+    height: auto;
+}
+.hays{
+    margin: 5px;
+    margin-top: 20px;
+} 
+.stary {
+    font-size: 23px;
+} 
+.h1ulit{
+    font-size: 35px;
+}
+.faf { 
+    font-size:25px; 
+}
+.h1to {
+    margin-top: 20px;
+    font-size: 40px;
+    padding: 20px;
+    padding-top:  100px;
+}
+.phototo { 
+    width: 40vh;
+    height: 40vh;
+}
+.trisom {
+    position: relative;
+    width: 80%;
+}
+iframe {
+    width: auto;
+}
+.butuun {
+    font-size: 15px;
+}
+.choosy {
+    height: 185vh;
+}
+.but {
+    margin-left: 5%;
+}
+}
