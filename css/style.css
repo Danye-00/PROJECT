@@ -357,14 +357,15 @@ li {
         display: block;
     }
 }
-
+@media (max-width: 300px) {
+     header{
+        width:50vh;
+    }
+}
 @media (max-width: 576px) {
     .dropdown_menuito {
         left: 2rem;
         width: unset;
-    }
-     header{
-        width:50vh;
     }
 }
 
