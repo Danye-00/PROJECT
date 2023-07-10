@@ -357,11 +357,6 @@ li {
         display: block;
     }
 }
-@media (max-width: 300px) {
-     header{
-        width:50%;
-    }
-}
 @media (max-width: 576px) {
     .dropdown_menuito {
         left: 2rem;
@@ -374,7 +369,7 @@ li {
         margin-top: 100px;
     }
     header{
-        width:47vh;
+        width:50vh;
     }
     .h1to {
         font-size: 45px;
