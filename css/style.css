@@ -363,6 +363,9 @@ li {
         left: 2rem;
         width: unset;
     }
+     header{
+        width:50vh;
+    }
 }
 
 @media screen and (max-width:768px){
