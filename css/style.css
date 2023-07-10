@@ -357,14 +357,12 @@ li {
         display: block;
     }
 }
+
 @media (max-width: 576px) {
     .dropdown_menuito {
         left: 2rem;
         width: unset;
     }
-    header{
-        width:53vh;
-    } 
 }
 
 @media screen and (max-width:768px){
@@ -372,8 +370,8 @@ li {
         margin-top: 100px;
     }
     header{
-        width:53vh;
-    } 
+        width:100vh;
+    }
     .h1to {
         font-size: 45px;
         padding-left: -10px;
@@ -382,6 +380,7 @@ li {
     }
     .home {
         height: 110vh;
+        width: 100vh;
     }
     .text-webkit{
     font-size: 35px; 
@@ -427,8 +426,10 @@ iframe {
 }
 .choosy {
     height: 185vh;
+    width: 100vh;
 }
 .but {
-    margin-left: 5%;
+    margin-left: 0;
+    padding: 5px;
 }
 }
