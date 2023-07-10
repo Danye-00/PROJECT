@@ -362,6 +362,9 @@ li {
         left: 2rem;
         width: unset;
     }
+    header{
+        width:53vh;
+    } 
 }
 
 @media screen and (max-width:768px){
@@ -369,11 +372,8 @@ li {
         margin-top: 100px;
     }
     header{
-        width:50vh;
-    }
-    .navii{
-        width:100%;
-    }
+        width:53vh;
+    } 
     .h1to {
         font-size: 45px;
         padding-left: -10px;
