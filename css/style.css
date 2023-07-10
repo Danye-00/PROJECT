@@ -371,6 +371,9 @@ li {
     header{
         width:50vh;
     }
+    .navii{
+        width:100%;
+    }
     .h1to {
         font-size: 45px;
         padding-left: -10px;
